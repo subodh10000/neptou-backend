@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Kathmandu Durbar Square",
+    "category": "culture",
+    "description": "A historic square featuring palaces, courtyards, and temples, showcasing the rich history of the Malla kings.",
+    "location_area": "Kathmandu",
+    "city_context": "Kathmandu",
+    "id": "kathmandu_kathmandu_durbar_square"
+  },
+  {
+    "name": "Boudhanath Stupa",
+    "category": "temple",
+    "description": "One of the largest stupas in Nepal, a UNESCO World Heritage site, known for its massive mandala and spiritual significance.",
+    "location_area": "Boudha",
+    "city_context": "Kathmandu",
+    "id": "kathmandu_boudhanath_stupa"
+  },
+  {
+    "name": "Swayambhunath Stupa",
+    "category": "temple",
+    "description": "An ancient religious complex atop a hill, offering panoramic views of the city and known for its monkey population.",
+    "location_area": "Swayambhu",
+    "city_context": "Kathmandu",
+    "id": "kathmandu_swayambhunath_stupa"
+  },
+  {
+    "name": "Phewa Lake",
+    "category": "nature",
+    "description": "A stunning freshwater lake known for its scenic beauty and boating activities.",
+    "location_area": "",
+    "city_context": "Pokhara",
+    "id": "pokhara_phewa_lake"
+  },
+  {
+    "name": "Sarangkot",
+    "category": "adventure",
+    "description": "A popular viewpoint for sunrise and sunset, offering breathtaking views of the Himalayas.",
+    "location_area": "",
+    "city_context": "Pokhara",
+    "id": "pokhara_sarangkot"
+  },
+  {
+    "name": "World Peace Pagoda",
+    "category": "temple",
+    "description": "A Buddhist stupa that provides panoramic views of Pokhara and the surrounding mountains.",
+    "location_area": "",
+    "city_context": "Pokhara",
+    "id": "pokhara_world_peace_pagoda"
+  }
+]

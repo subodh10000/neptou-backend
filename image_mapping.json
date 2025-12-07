@@ -1,0 +1,338 @@
+{
+  "places": {
+    "ktm_pashupatinath": [
+      "pashupatinath_main.jpg",
+      "pashupatinath_ghat.jpg",
+      "pashupatinath_sadhus.jpg"
+    ],
+    "ktm_boudhanath": [
+      "boudhanath_main.jpg",
+      "boudhanath_prayer_wheels.jpg",
+      "boudhanath_monks.jpg"
+    ],
+    "ktm_swayambhunath": [
+      "swayambhunath_main.jpg",
+      "swayambhunath_view.jpg",
+      "swayambhunath_monkeys.jpg"
+    ],
+    "ktm_durbar_square": [
+      "durbar_square_main.jpg",
+      "durbar_square_kumari.jpg",
+      "durbar_square_palace.jpg"
+    ],
+    "ktm_thamel": [
+      "thamel_street.jpg",
+      "thamel_shops.jpg",
+      "thamel_night.jpg"
+    ],
+    "ktm_garden_of_dreams": [
+      "garden_dreams_main.jpg",
+      "garden_dreams_fountain.jpg",
+      "garden_dreams_pavilion.jpg"
+    ],
+    "ktm_patan_durbar": [
+      "patan_durbar_main.jpg",
+      "patan_krishna_temple.jpg",
+      "patan_golden_temple.jpg"
+    ],
+    "ktm_bhaktapur_durbar": [
+      "bhaktapur_durbar_main.jpg",
+      "bhaktapur_nyatapola.jpg",
+      "bhaktapur_pottery.jpg"
+    ],
+    "ktm_nagarkot": [
+      "nagarkot_sunrise.jpg",
+      "nagarkot_himalayas.jpg",
+      "nagarkot_viewpoint.jpg"
+    ],
+    "ktm_changu_narayan": [
+      "changu_narayan_main.jpg",
+      "changu_carvings.jpg",
+      "changu_view.jpg"
+    ],
+    "ktm_kopan_monastery": [
+      "kopan_monastery_main.jpg",
+      "kopan_gardens.jpg",
+      "kopan_meditation.jpg"
+    ],
+    "pokhara_phewa_lake": [
+      "phewa_lake_main.jpg",
+      "phewa_boating.jpg",
+      "phewa_sunset.jpg"
+    ],
+    "pokhara_sarangkot": [
+      "sarangkot_sunrise.jpg",
+      "sarangkot_paragliding.jpg",
+      "sarangkot_mountains.jpg"
+    ],
+    "pokhara_world_peace_pagoda": [
+      "peace_pagoda_main.jpg",
+      "peace_pagoda_view.jpg",
+      "peace_pagoda_hike.jpg"
+    ],
+    "chitwan_national_park": [
+      "chitwan_rhino.jpg",
+      "chitwan_elephant_safari.jpg",
+      "chitwan_jungle.jpg"
+    ],
+    "lumbini_buddha_birthplace": [
+      "lumbini_temple.jpg",
+      "lumbini_pillar.jpg",
+      "lumbini_monasteries.jpg"
+    ],
+    "dang_dharapani": [
+      "dharapani_trishul.jpg",
+      "dharapani_temple.jpg",
+      "dharapani_festival.jpg"
+    ],
+    "dang_jakhera_lake": [
+      "jakhera_lake_main.jpg",
+      "jakhera_birds.jpg",
+      "jakhera_boating.jpg"
+    ],
+    "dang_tharu_museum": [
+      "tharu_museum_main.jpg",
+      "tharu_artifacts.jpg",
+      "tharu_dance.jpg"
+    ],
+    "dang_chamera_gupha": [
+      "chamera_cave_main.jpg",
+      "chamera_bats.jpg",
+      "chamera_formations.jpg",
+      "dang_chamera_gupha_main.jpg"
+    ],
+    "dang_purandhara_waterfall": [
+      "purandhara_waterfall_main.jpg",
+      "purandhara_nature.jpg",
+      "purandhara_pool.jpg",
+      "dang_purandhara_waterfall_main.jpg"
+    ],
+    "dang_bageshwori_temple": [
+      "bageshwori_temple_main.jpg",
+      "bageshwori_festival.jpg"
+    ],
+    "dang_tharu_homestay": [
+      "tharu_homestay_main.jpg",
+      "tharu_homestay_food.jpg",
+      "tharu_homestay_dance.jpg"
+    ],
+    "dang_barhakune_daha": [
+      "dang_barhakune_daha_main.jpg"
+    ],
+    "dang_ambikeshwori_temple": [
+      "dang_ambikeshwori_temple_main.jpg"
+    ],
+    "dang_goraksha_ratna_nath": [
+      "dang_goraksha_ratna_nath_main.jpg"
+    ],
+    "dang_chhillikot": [
+      "dang_chhillikot_main.jpg"
+    ],
+    "dang_sawarikot": [
+      "dang_sawarikot_main.jpg"
+    ],
+    "dang_rapti_peace_park": [
+      "dang_rapti_peace_park_main.jpg"
+    ],
+    "dang_koilabas": [
+      "dang_koilabas_main.jpg"
+    ],
+    "dang_banglachuli": [
+      "dang_banglachuli_main.jpg"
+    ],
+    "dang_sonpathari": [
+      "dang_sonpathari_main.jpg"
+    ],
+    "dang_deukhuri_valley": [
+      "dang_deukhuri_valley_main.jpg"
+    ],
+    "dang_food_dhikri": [
+      "dang_food_dhikri_main.jpg"
+    ],
+    "dang_food_ghonghi": [
+      "dang_food_ghonghi_main.jpg"
+    ],
+    "dang_food_anadi_rice": [
+      "dang_food_anadi_rice_main.jpg"
+    ],
+    "dang_food_khariya": [
+      "dang_food_khariya_main.jpg"
+    ],
+    "dang_food_bagiya": [
+      "dang_food_bagiya_main.jpg"
+    ],
+    "dang_food_sidhara": [
+      "dang_food_sidhara_main.jpg"
+    ],
+    "dang_food_pakuwa": [
+      "dang_food_pakuwa_main.jpg"
+    ],
+    "dang_food_gengta_chutney": [
+      "dang_food_gengta_chutney_main.jpg"
+    ],
+    "dang_food_parewak_sikar": [
+      "dang_food_parewak_sikar_main.jpg"
+    ],
+    "dang_food_jhingiya_machhari": [
+      "dang_food_jhingiya_machhari_main.jpg"
+    ],
+    "dang_food_sipi": [
+      "dang_food_sipi_main.jpg"
+    ],
+    "dang_food_bhakka": [
+      "dang_food_bhakka_main.jpg"
+    ],
+    "dang_food_mahuwa": [
+      "dang_food_mahuwa_main.jpg"
+    ],
+    "dang_food_tilaur": [
+      "dang_food_tilaur_main.jpg"
+    ],
+    "dang_food_tharu_achar": [
+      "dang_food_tharu_achar_main.jpg"
+    ],
+    "kailali_tikapur_garden": [
+      "kailali_tikapur_garden_main.jpg"
+    ],
+    "kailali_karnali_bridge": [
+      "kailali_karnali_bridge_main.jpg"
+    ],
+    "kailali_ghodaghodi_lake": [
+      "kailali_ghodaghodi_lake_main.jpg"
+    ],
+    "kailali_dolphin_conservation": [
+      "kailali_dolphin_conservation_main.jpg"
+    ],
+    "kailali_bhada_tharu_homestay": [
+      "kailali_bhada_tharu_homestay_main.jpg"
+    ],
+    "kailali_shivpuri_dham": [
+      "kailali_shivpuri_dham_main.jpg"
+    ],
+    "kailali_behadababa_temple": [
+      "kailali_behadababa_temple_main.jpg"
+    ],
+    "kailali_jakhor_taal": [
+      "kailali_jakhor_taal_main.jpg"
+    ],
+    "kailali_aircraft_museum": [
+      "kailali_aircraft_museum_main.jpg"
+    ],
+    "kailali_godawari_dham": [
+      "kailali_godawari_dham_main.jpg"
+    ],
+    "kailali_banana_restaurant": [
+      "kailali_banana_restaurant_main.jpg"
+    ],
+    "kailali_dhangadhi_park": [
+      "kailali_dhangadhi_park_main.jpg"
+    ],
+    "kailali_mohana_river_corridor": [
+      "kailali_mohana_river_corridor_main.jpg"
+    ],
+    "kailali_bandevi_temple": [
+      "kailali_bandevi_temple_main.jpg"
+    ],
+    "kailali_koilahi_lake": [
+      "kailali_koilahi_lake_main.jpg"
+    ],
+    "kailali_food_banana_momo": [
+      "kailali_food_banana_momo_main.jpg"
+    ],
+    "kailali_food_banana_chips": [
+      "kailali_food_banana_chips_main.jpg"
+    ],
+    "kailali_food_banana_wine": [
+      "kailali_food_banana_wine_main.jpg"
+    ],
+    "kailali_food_karnali_fish": [
+      "kailali_food_karnali_fish_main.jpg"
+    ],
+    "kailali_food_ghonghi_kailali": [
+      "kailali_food_ghonghi_kailali_main.jpg"
+    ],
+    "kailali_food_poka": [
+      "kailali_food_poka_main.jpg"
+    ],
+    "kailali_food_dhikri_kailali": [
+      "kailali_food_dhikri_kailali_main.jpg"
+    ],
+    "kailali_food_sidhara_kailali": [
+      "kailali_food_sidhara_kailali_main.jpg"
+    ],
+    "kailali_food_khariya_kailali": [
+      "kailali_food_khariya_kailali_main.jpg"
+    ],
+    "kailali_food_chichar_kailali": [
+      "kailali_food_chichar_kailali_main.jpg"
+    ],
+    "kailali_food_duck_curry": [
+      "kailali_food_duck_curry_main.jpg"
+    ],
+    "kailali_food_gengta_crab": [
+      "kailali_food_gengta_crab_main.jpg"
+    ],
+    "kailali_food_sipi_kailali": [
+      "kailali_food_sipi_kailali_main.jpg"
+    ],
+    "kailali_food_tharu_achar_kailali": [
+      "kailali_food_tharu_achar_kailali_main.jpg"
+    ],
+    "kailali_food_banana_lassi": [
+      "kailali_food_banana_lassi_main.jpg"
+    ]
+  },
+  "foods": [
+    "tharu_thali.jpg",
+    "dang_food_parewak_sikar_main.jpg",
+    "dang_food_bhakka_main.jpg",
+    "dang_food_gengta_chutney_main.jpg",
+    "dang_food_tharu_achar_main.jpg",
+    "kailali_food_sipi_kailali_main.jpg",
+    "dhikri.jpg",
+    "dang_food_jhingiya_machhari_main.jpg",
+    "dang_food_dhikri_main.jpg",
+    "dang_food_khariya_main.jpg",
+    "kailali_food_tharu_achar_kailali_main.jpg",
+    "ghonghi.jpg",
+    "sekuwa.jpg",
+    "dang_food_pakuwa_main.jpg",
+    "thukpa.jpg",
+    "kailali_food_banana_momo_main.jpg",
+    "dang_food_sidhara_main.jpg",
+    "kailali_food_karnali_fish_main.jpg",
+    "sidhara.jpg",
+    "dang_food_ghonghi_main.jpg",
+    "dang_food_anadi_rice_main.jpg",
+    "kailali_food_ghonghi_kailali_main.jpg",
+    "momo.jpg",
+    "kailali_food_sidhara_kailali_main.jpg",
+    "samay_baji.jpg",
+    "kailali_food_dhikri_kailali_main.jpg",
+    "kailali_food_banana_wine_main.jpg",
+    "kailali_food_banana_lassi_main.jpg",
+    "kailali_banana_restaurant_main.jpg",
+    "kailali_food_chichar_kailali_main.jpg",
+    "kailali_food_banana_chips_main.jpg",
+    "dal_bhat.jpg",
+    "dang_food_bagiya_main.jpg",
+    "chatamari.jpg",
+    "kailali_food_poka_main.jpg",
+    "juju_dhau.jpg",
+    "sel_roti.jpg",
+    "kailali_food_gengta_crab_main.jpg",
+    "kailali_food_khariya_kailali_main.jpg",
+    "bhakka.jpg",
+    "dang_food_mahuwa_main.jpg",
+    "dang_food_tilaur_main.jpg",
+    "kailali_food_duck_curry_main.jpg",
+    "dang_food_sipi_main.jpg"
+  ],
+  "guides": [
+    "guide1.jpg",
+    "guide2.jpg",
+    "guide3.jpg",
+    "guide4.jpg",
+    "guide5.jpg"
+  ]
+}
