@@ -44,7 +44,24 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"message": "Namaste! Neptou Backend is running.", "version": "2.0"}
+    return {
+        "message": "Namaste! Neptou Backend is running.", 
+        "version": "2.1",
+        "chat_supports": ["message", "history"]
+    }
+
+@app.get("/api/health")
+def health_check():
+    """Health check endpoint to verify deployment"""
+    import schemas
+    # Check if ChatRequest supports message field
+    chat_fields = list(schemas.ChatRequest.model_fields.keys())
+    return {
+        "status": "healthy",
+        "chat_request_fields": chat_fields,
+        "supports_message": "message" in chat_fields,
+        "supports_history": "history" in chat_fields
+    }
 
 @app.post("/api/chat")
 async def chat(request: schemas.ChatRequest):
