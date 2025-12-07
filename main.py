@@ -49,23 +49,32 @@ def read_root():
 @app.post("/api/chat")
 async def chat(request: schemas.ChatRequest):
     """Chat with the AI Assistant"""
+    
+    # Handle both formats: single message or history
+    if request.message and not request.history:
+        # iOS app format: convert single message to history
+        messages = [{"role": "user", "content": request.message}]
+    elif request.history:
+        # Existing format: use history
+        messages = [{"role": m.role, "content": m.content} for m in request.history]
+    else:
+        raise HTTPException(status_code=400, detail="Either 'message' or 'history' must be provided")
+    
     # SECURITY FIX: Input validation
-    if not request.history:
-        raise HTTPException(status_code=400, detail="Message history cannot be empty")
+    if not messages:
+        raise HTTPException(status_code=400, detail="Message cannot be empty")
     
     # Validate message content length to prevent abuse
-    for msg in request.history:
-        if len(msg.content) > 10000:  # Reasonable limit
+    for msg in messages:
+        if len(msg.get("content", "")) > 10000:  # Reasonable limit
             raise HTTPException(status_code=400, detail="Message too long (max 10000 characters)")
-        if msg.role not in ["user", "assistant"]:
+        if msg.get("role") not in ["user", "assistant"]:
             raise HTTPException(status_code=400, detail="Invalid message role")
     
     try:
-        # Format messages for Anthropic SDK
-        messages = [{"role": m.role, "content": m.content} for m in request.history]
         # Get place and food context if provided
-        place_context = request.place_context if hasattr(request, 'place_context') and request.place_context else None
-        food_context = request.food_context if hasattr(request, 'food_context') and request.food_context else None
+        place_context = request.place_context if request.place_context else None
+        food_context = request.food_context if request.food_context else None
         result = await ai_service.get_chat_response(messages, place_context=place_context, food_context=food_context)
         
         # Handle both dict (with follow-up questions) and string (legacy) responses

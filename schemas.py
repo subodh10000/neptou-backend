@@ -7,7 +7,8 @@ class ChatMessage(BaseModel):
     content: str
 
 class ChatRequest(BaseModel):
-    history: List[ChatMessage]
+    message: Optional[str] = None  # Support single message from iOS app
+    history: Optional[List[ChatMessage]] = None  # Make optional to support both formats
     place_context: Optional[dict] = None  # Optional place context when user asks about a specific place
     food_context: Optional[dict] = None  # Optional food context when user asks about a specific food
 
