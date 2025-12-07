@@ -27,17 +27,28 @@ class VectorSearch:
         self.model = None
         self.places_data = []
         self.embeddings = []
-        self._load_embeddings()
-        self._load_model()
+        try:
+            self._load_embeddings()
+            self._load_model()
+        except Exception as e:
+            print(f"⚠️  Warning: Vector search initialization failed: {e}")
+            print("   App will continue without vector search features.")
+            # Don't raise - allow app to continue without vector search
     
     def _load_model(self):
         """Load the sentence transformer model."""
         try:
+            # Try to load with low memory settings
             self.model = SentenceTransformer(EMBEDDING_MODEL)
             print(f"✅ Loaded embedding model: {EMBEDDING_MODEL}")
+        except MemoryError as e:
+            print(f"⚠️  Memory error loading embedding model: {e}")
+            print("   Vector search will be disabled. Consider upgrading to Starter tier ($7/month) for more memory.")
+            self.model = None
         except Exception as e:
-            print(f"❌ Error loading embedding model: {e}")
-            raise
+            print(f"⚠️  Error loading embedding model: {e}")
+            print("   Vector search will be disabled.")
+            self.model = None
     
     def _load_embeddings(self):
         """Load place embeddings from JSON file."""
@@ -111,6 +122,10 @@ class VectorSearch:
         Returns:
             List of dictionaries containing place/insight information and similarity scores
         """
+        # If model failed to load, return empty results instead of crashing
+        if self.model is None:
+            print("⚠️  Vector search model not available, returning empty results")
+            return []
         if not self.model or not self.places_data:
             # Silently return empty list - RAG will gracefully degrade
             return []
