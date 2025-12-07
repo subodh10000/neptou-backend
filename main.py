@@ -44,7 +44,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return {"message": "Namaste! Neptou Backend is running."}
+    return {"message": "Namaste! Neptou Backend is running.", "version": "2.0"}
 
 @app.post("/api/chat")
 async def chat(request: schemas.ChatRequest):
